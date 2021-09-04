@@ -150,8 +150,8 @@ function showMovie(showLists){
                         </h1>
                         <ul class="movieInformation__evaluate">
                             <li><img src="./content/sao.png" alt=""></li>
-                            <li><img src="./content/title.svg" alt=""><a href="">${showList.querySelector(".section span").innerText}</a></li>
-                            <li><img src="./content/clock.svg" alt=""><a href="">3/9/2021</a></li>
+                            <li><img src="./content/title.svg" alt="">${showList.querySelector(".section span").innerText}</li>
+                            <li><img src="./content/clock.svg" alt="">3/9/2021</li>
                         </ul>
                         <div class="movieInformation__btn">
                             <a href="${showList.querySelector("a").href}">Xem Phim</a>
