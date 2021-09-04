@@ -35,7 +35,7 @@ fetch(API)
 
         move();
 
-        setInterval(heightImg,100)
+        //setInterval(heightImg,100)
 
 
     });
@@ -83,8 +83,6 @@ function movieEls (datas,all){
         </li>
         `
 
-
-        
 
         if(all){
             quantity++;
@@ -335,23 +333,23 @@ function scrollNav(){
 
 
 // hàm xử lý chiều cao và trái
-function getOffset(el) {
-    const rect = el.getBoundingClientRect();
-    return {
-      left: rect.left + window.scrollX,
-      top: rect.top + window.scrollY
-    };
-}
+// function getOffset(el) {
+//     const rect = el.getBoundingClientRect();
+//     return {
+//       left: rect.left + window.scrollX,
+//       top: rect.top + window.scrollY
+//     };
+// }
 
 // cho phần height ảnh  
 
-function heightImg(){
+// function heightImg(){
 
-    const lis = contentMovie.querySelectorAll("li")
-    lis.forEach((li) => {
-        li.querySelector(".imgMovie").style.height = `calc(calc(${lis[0].offsetWidth}px * 3) / 2 )`
-    })
-}
+//     const lis = contentMovie.querySelectorAll("li")
+//     lis.forEach((li) => {
+//         li.querySelector(".imgMovie").style.height = `calc(calc(${lis[0].offsetWidth}px * 3) / 2 )`
+//     })
+// }
 
 
 
