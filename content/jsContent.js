@@ -33,7 +33,7 @@ fetch(API)
 
         move();
 
-        setTimeout(loading,2000)
+        setTimeout(loading,1000)
 
     });
 
