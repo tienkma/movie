@@ -9,6 +9,19 @@
     <title>Movie</title>
 </head>
 <body>
+    <div class="loading">
+        <div class="loadCricle">
+            <div style="--value:1"><span></span></div>
+            <div style="--value:2"><span></span></div>
+            <div style="--value:3"><span></span></div>
+            <div style="--value:4"><span></span></div>
+            <div style="--value:5"><span></span></div>
+            <div style="--value:6"><span></span></div>
+            <div style="--value:7"><span></span></div>
+            <div style="--value:8"><span></span></div>
+        </div>
+        <!-- <h1>loading...</h1> -->
+    </div>
     <header>
         <div class="header" >
             <div class="btnHeader">
@@ -19,7 +32,13 @@
             </form>
             <div class="header_content">
                 <form class="header_search">
-                    <input id="search" type="text" placeholder="Search...">
+                    <input id="search" type="text" placeholder="Search..." list="list">
+                    <!-- <datalist id="list">
+                        <option value="tien"></option>
+                        <option value="alo"></option>
+                        <option value="Trieu"></option>
+                        <option value="vụknc"></option>
+                    </datalist> -->
                 </form>
                 <div class="header_form-color1 nav-transform">
                     <div class="header_form-color2 nav-transform">

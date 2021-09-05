@@ -29,14 +29,11 @@ fetch(API)
 
         movieEls(response.phim.phimle,"tien");
 
-        // showMovie(response.phim.phimle)
-
         events(response.phim.phimle)
 
         move();
 
-        //setInterval(heightImg,100)
-
+        setTimeout(loading,2000)
 
     });
 
@@ -341,15 +338,9 @@ function scrollNav(){
 //     };
 // }
 
-// cho phần height ảnh  
-
-// function heightImg(){
-
-//     const lis = contentMovie.querySelectorAll("li")
-//     lis.forEach((li) => {
-//         li.querySelector(".imgMovie").style.height = `calc(calc(${lis[0].offsetWidth}px * 3) / 2 )`
-//     })
-// }
 
 
-
+function loading(){
+    document.body.classList.add("activeLoad");
+    // document.querySelector('.loading').parentElement.overflow = "auto"
+}
