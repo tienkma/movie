@@ -369,14 +369,10 @@ header .btnHeader button{
 
 
 #content .content_movie ul li .imgMovie{
-    /* flex:1; */
+    height:370px;
     overflow: hidden;
-    /* min-height: 290px;
-    flex-shrink: 0; */
-    /* height: 290px; */
+
 }
-
-
 #content .content_movie li .movie_information{
     padding: 10px;
     flex: 1;
@@ -788,6 +784,9 @@ a {}
     #content .content_movie .movie_information span{
         margin: 10px 0;
     }
+    #content .content_movie ul li .imgMovie{
+        height:500px;
+    }
 }
 @media screen and (max-width: 800px) {
     *{
@@ -822,6 +821,9 @@ a {}
     .container .content_logo img{
         transform: scale(1.5);
 
+    }
+    #content .content_movie ul li .imgMovie{
+        height:auto
     }
 
 }
