@@ -31,11 +31,13 @@ fetch(API)
 
         events(response.phim.phimle)
 
-        move();
-
-        setTimeout(loading,1000)
+       
 
     });
+
+    move();
+
+    setTimeout(loading,2000)
 
 // Element cho nav 
 function presentlyEl (datas){
